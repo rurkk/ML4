@@ -1,0 +1,5 @@
+# Original videos stay local; preserve originals outside the repository too.
+/data/raw/*.mov
+# Regenerable frame buffer and Python cache
+/review/green.bin
+**/__pycache__/

@@ -14,10 +14,6 @@ __pycache__/
 .vscode/
 .DS_Store
 
-# Downloaded lab datasets
-/fuel_5min.csv
-/fuel_raw.csv.gz
-
 # Local secrets and logs
 .env
 .env.*
