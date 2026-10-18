@@ -1,5 +1,17 @@
 # Original videos stay local; preserve originals outside the repository too.
 /data/raw/*.mov
-# Regenerable frame buffer and Python cache
-/review/green.bin
+# Python cache
 **/__pycache__/
+
+# Downloaded pretrained weights and rendering caches
+/models/
+/cache/mpl/
+/cache/fontconfig/
+/data/raw/*.mp4
+/data/raw/*.MOV
+
+# Regenerable diagnostics; keep the report and scientific results.
+/results/video_audit.json
+/results/video_timestamps.npz
+/results/checks.json
+/results/notebook_execution.json

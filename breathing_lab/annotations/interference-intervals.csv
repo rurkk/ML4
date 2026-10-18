@@ -1,0 +1,13 @@
+start_seconds,end_seconds,event,description,evidence,boundary_uncertainty_s
+0,7.5,body_arm,"Меняются положение плеч и изгиб рук у корпуса",video_observation_sampled_frames,2.5
+7.5,17.5,head,"Голова и взгляд поворачиваются вверх и в сторону",video_observation_sampled_frames,2.5
+20,25,arm_body,"Меняются положение руки и наклон верхней части корпуса",video_observation_sampled_frames,2.5
+27.5,37.5,head,"Меняются направление взгляда и поворот головы",video_observation_sampled_frames,2.5
+42.5,47.5,arm_body,"Рука у нижней границы кадра; небольшое изменение позы",video_observation_sampled_frames,2.5
+62,63.5,head,"Голова наклоняется вниз и возвращается",video_observation_sampled_frames,0.5
+64.5,66.5,arm_body,"Правая рука вытягивается влево в изображении; смещаются плечи и корпус",video_observation_sampled_frames,0.5
+65,152.91805,torch_scenario,"Использую движущийся фонарик телефона в правой руке примерно с 65 с; точные моменты включения и выключения не подтверждаю",user_scenario_approximate,2
+66.5,152.91805,arm,"Правая рука остаётся вытянутой и меняет положение; часть телефона вне кадра",video_observation_sampled_frames,0.5
+128,131,light_shadow_phone,"Телефон виден у левого края; заметно усиливается освещение лица и меняются светлые участки на рукаве и груди",video_observation_sampled_frames,0.5
+134.5,136,head,"Взгляд опускается к телефону, затем возвращается",video_observation_sampled_frames,0.5
+148.5,150.5,arm_body,"Другая рука движется у нижнего края; корпус смещается ближе к камере",video_observation_sampled_frames,0.35

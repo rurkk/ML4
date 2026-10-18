@@ -1,0 +1,191 @@
+{
+  "full": {
+    "window": "весь доступный сигнал",
+    "start_s": 0.20003,
+    "end_s": 152.81804000000002,
+    "duration_s": 152.61801000000003,
+    "n_peaks": 46,
+    "RR_est_bpm": 18.084366320855576,
+    "dominant_bpm": 17.277486910994764,
+    "band_concentration": 0.7178182801797267,
+    "filtered_rms_px": 2.4535471777575184,
+    "flow_dispersion_px": 0.1483994424343109,
+    "brightness_range": 9.342146267361116
+  },
+  "comparable_windows": [
+    {
+      "window": "до: 2–32",
+      "start_s": 2.0,
+      "end_s": 32.0,
+      "duration_s": 30.0,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.0,
+      "dominant_bpm": 20.0,
+      "band_concentration": 0.634922497200737,
+      "filtered_rms_px": 1.113517814471899,
+      "flow_dispersion_px": 0.07887174561619759,
+      "brightness_range": 2.9313943142361154
+    },
+    {
+      "window": "до: 32–62",
+      "start_s": 32.0,
+      "end_s": 62.0,
+      "duration_s": 30.0,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.0,
+      "dominant_bpm": 18.0,
+      "band_concentration": 0.778767555621557,
+      "filtered_rms_px": 1.053767986029055,
+      "flow_dispersion_px": 0.08126017451286316,
+      "brightness_range": 3.0286979166666725
+    },
+    {
+      "window": "фонарик: 72–102",
+      "start_s": 72.0,
+      "end_s": 102.0,
+      "duration_s": 30.0,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.0,
+      "dominant_bpm": 16.0,
+      "band_concentration": 0.6318371567910818,
+      "filtered_rms_px": 2.8692689096353234,
+      "flow_dispersion_px": 0.22989170998334885,
+      "brightness_range": 5.856460503472221
+    },
+    {
+      "window": "фонарик: 102–132",
+      "start_s": 102.0,
+      "end_s": 132.0,
+      "duration_s": 30.0,
+      "n_peaks": 8,
+      "RR_est_bpm": 16.0,
+      "dominant_bpm": 18.0,
+      "band_concentration": 0.7995469049255408,
+      "filtered_rms_px": 2.828712367144314,
+      "flow_dispersion_px": 0.20299488306045532,
+      "brightness_range": 6.318608940972226
+    }
+  ],
+  "grid": [
+    {
+      "window": "0.2–30.2",
+      "start_s": 0.20003,
+      "end_s": 30.20003,
+      "duration_s": 30.0,
+      "n_peaks": 10,
+      "RR_est_bpm": 20.0,
+      "dominant_bpm": 20.0,
+      "band_concentration": 0.5614554170895163,
+      "filtered_rms_px": 1.2552902417828078,
+      "flow_dispersion_px": 0.08125610277056694,
+      "brightness_range": 2.9313943142361154
+    },
+    {
+      "window": "30.2–60.2",
+      "start_s": 30.20003,
+      "end_s": 60.20003,
+      "duration_s": 29.999999999999996,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.000000000000004,
+      "dominant_bpm": 18.0,
+      "band_concentration": 0.7669617849645453,
+      "filtered_rms_px": 1.067658544929876,
+      "flow_dispersion_px": 0.07887442037463188,
+      "brightness_range": 3.0286979166666725
+    },
+    {
+      "window": "60.2–90.2",
+      "start_s": 60.20003,
+      "end_s": 90.20003,
+      "duration_s": 30.0,
+      "n_peaks": 8,
+      "RR_est_bpm": 16.0,
+      "dominant_bpm": 16.0,
+      "band_concentration": 0.806135479349287,
+      "filtered_rms_px": 2.3159144654591803,
+      "flow_dispersion_px": 0.20676755160093307,
+      "brightness_range": 7.886036241319445
+    },
+    {
+      "window": "90.2–120.2",
+      "start_s": 90.20003,
+      "end_s": 120.20003,
+      "duration_s": 30.0,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.0,
+      "dominant_bpm": 18.0,
+      "band_concentration": 0.6426702488230279,
+      "filtered_rms_px": 2.9243701756124136,
+      "flow_dispersion_px": 0.18820524960756302,
+      "brightness_range": 3.9233018663194485
+    },
+    {
+      "window": "120.2–150.2",
+      "start_s": 120.20003,
+      "end_s": 150.20003,
+      "duration_s": 30.0,
+      "n_peaks": 9,
+      "RR_est_bpm": 18.0,
+      "dominant_bpm": 18.0,
+      "band_concentration": 0.7573321990564947,
+      "filtered_rms_px": 3.512602669883426,
+      "flow_dispersion_px": 0.29277387261390686,
+      "brightness_range": 6.339280598958339
+    },
+    {
+      "window": "150.2–152.8",
+      "start_s": 150.20003,
+      "end_s": 152.81804,
+      "duration_s": 2.618009999999998,
+      "n_peaks": 1,
+      "RR_est_bpm": 22.91817067161701,
+      "dominant_bpm": 21.428571428571427,
+      "band_concentration": 1.0,
+      "filtered_rms_px": 2.9082790930737428,
+      "flow_dispersion_px": 0.2808263599872589,
+      "brightness_range": 0.9460340711805628
+    }
+  ],
+  "sensitivity": [
+    {
+      "prominence_mad": 0.2,
+      "n_peaks": 46,
+      "RR_est_bpm": 18.084366320855576
+    },
+    {
+      "prominence_mad": 0.35,
+      "n_peaks": 46,
+      "RR_est_bpm": 18.084366320855576
+    },
+    {
+      "prominence_mad": 0.5,
+      "n_peaks": 46,
+      "RR_est_bpm": 18.084366320855576
+    },
+    {
+      "prominence_mad": 0.8,
+      "n_peaks": 43,
+      "RR_est_bpm": 16.90495112601717
+    }
+  ],
+  "accuracy": {
+    "status": "independent_reference_unavailable",
+    "RR_MAE": null,
+    "RR_bias": null
+  },
+  "valid_pose_frames": 153,
+  "total_pose_frames": 153,
+  "minimum_shoulder_confidence": 0.3585274815559387,
+  "raw_pairs": 763,
+  "signal_start_s": 0.20003,
+  "signal_end_s": 152.81804000000002,
+  "signal_duration_s": 152.61801000000003,
+  "peak_prominence_px": 0.7305420872948154,
+  "config": {
+    "low_hz": 0.1,
+    "high_hz": 0.7,
+    "fs_hz": 5.0,
+    "min_distance_s": 1.4,
+    "prominence_mad": 0.35
+  }
+}

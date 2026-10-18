@@ -1,0 +1,71 @@
+{
+  "status": "completed",
+  "test_video_s": 12.0,
+  "wall_s": 22.875724792014807,
+  "model_load_s": 2.6135825839592144,
+  "warmup_s": 1.2654314580140635,
+  "projected_neural_full_s": 284.3786647259542,
+  "projected_wall_full_s": 291.5092689609633,
+  "devices": [
+    "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+  ],
+  "pose_s": 10.861595335183665,
+  "flow_s": 11.4545666660415,
+  "n_pose": 12,
+  "n_flow": 58,
+  "pose_median_s": 0.8645450415788218,
+  "flow_median_s": 0.18320395797491074,
+  "peak_rss_mib": 1568.171875,
+  "config": {
+    "sample_hz": 5.0,
+    "pose_hz": 1.0,
+    "flow_w": 384,
+    "flow_h": 256,
+    "image_w": 384,
+    "image_h": 216,
+    "pose_w": 656,
+    "pose_h": 368,
+    "pose_normalization": "(BGR-128)/256",
+    "confidence": 0.15,
+    "roi_width": 0.72,
+    "roi_top": 0.18,
+    "roi_bottom": 0.8,
+    "threads": 4
+  },
+  "fingerprint": {
+    "config": {
+      "sample_hz": 5.0,
+      "pose_hz": 1.0,
+      "flow_w": 384,
+      "flow_h": 256,
+      "image_w": 384,
+      "image_h": 216,
+      "pose_w": 656,
+      "pose_h": 368,
+      "pose_normalization": "(BGR-128)/256",
+      "confidence": 0.15,
+      "roi_width": 0.72,
+      "roi_top": 0.18,
+      "roi_bottom": 0.8,
+      "threads": 4
+    },
+    "files": {
+      "data/raw/ml-breath.mov": "43aa0a110c6b4030f2cdba431ac7c4bb75e839966e2750183f94549d1580f2f8",
+      "models/pose_deploy_linevec.prototxt": "17051b87f709aa094e09c5da7b78e9016a1f37b2b452ed1f190fe74cce70b1ad",
+      "models/pose_iter_440000.caffemodel": "b4cf475576abd7b15d5316f1ee65eb492b5c9f5865e70a2e7882ed31fb682549",
+      "models/supervise_finetune.data-00000-of-00001": "ba5c1ae8f65c477c238f3760140b5122df297ce3736ca3910439c73efc09d332",
+      "models/supervise_finetune.index": "c7295bb34960248cbe2cab2874d5b0e4734e57b736651cee5fbc4f06b0d09460",
+      "vendor/data_augmentation.py": "88ecc364669cf6d8191005864086a390af8fb89038e2f9dd43b254850f7003c9",
+      "vendor/network.py": "0d0d05c616fcab163b1305ac7fb571f3f96e60cfee0d13d3ce0213aec730335b",
+      "vendor/utils.py": "ab9b1d325d2ccf0e84fdc08b193b4af9460e2990147fe1eb97f9b1575b4149dd",
+      "vendor/warp.py": "b1f4bf23d0440ec548001b52565d1a589b8bf2964f32745c619a30ce06d6453c",
+      "scripts/pipeline.py": "d996dde6eea6572b8919059da728888d802c1253f617ca892c5fa9b7266d0721"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "opencv-python-headless": "4.12.0.88",
+      "tensorflow": "2.21.0",
+      "tf_slim": "1.1.0"
+    }
+  }
+}

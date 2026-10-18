@@ -1,0 +1,32 @@
+[
+  {
+    "expected_u_px": 0,
+    "expected_v_px": 0,
+    "measured_u_px": -0.00031103461515158415,
+    "measured_v_px": 0.002416518982499838
+  },
+  {
+    "expected_u_px": 6,
+    "expected_v_px": 0,
+    "measured_u_px": 6.065023422241211,
+    "measured_v_px": 0.011459044180810452
+  },
+  {
+    "expected_u_px": -6,
+    "expected_v_px": 0,
+    "measured_u_px": -6.046964645385742,
+    "measured_v_px": 0.04801511764526367
+  },
+  {
+    "expected_u_px": 0,
+    "expected_v_px": 6,
+    "measured_u_px": 0.010213644243776798,
+    "measured_v_px": 6.200688362121582
+  },
+  {
+    "expected_u_px": 0,
+    "expected_v_px": -6,
+    "measured_u_px": -0.055911872535943985,
+    "measured_v_px": -6.127333164215088
+  }
+]
