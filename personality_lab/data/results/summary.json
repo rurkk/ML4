@@ -1,0 +1,85 @@
+{
+  "participants": 38,
+  "train": 26,
+  "comparison": 12,
+  "features": 22,
+  "targets": [
+    "Agreeableness",
+    "Extraversion"
+  ],
+  "selected_models": {
+    "Agreeableness": "RandomForest",
+    "Extraversion": "Dummy"
+  },
+  "comparison_used_for_model_choice": true,
+  "independent_test_available": false,
+  "sales_method": "IsotonicRegression по баллу личности",
+  "sales_comparison": {
+    "scope": "Сравнительная выборка",
+    "method": "Калибровка",
+    "n": 12,
+    "applied": true,
+    "accuracy": 0.5,
+    "macro_F1": 0.3342857142857143,
+    "MAE": 0.5833333333333334,
+    "within_one": 0.9166666666666666
+  },
+  "final_metrics": [
+    {
+      "target": "Agreeableness",
+      "model": "RandomForest",
+      "n_test": 12,
+      "MAE": 0.09646997767857146,
+      "RMSE": 0.11591427672253696,
+      "R2": -0.21252837509372347,
+      "fit_seconds": 0.05343116703443229,
+      "predict_seconds": 0.005028625018894672,
+      "outside_0_1": 0,
+      "applied": true
+    },
+    {
+      "target": "Extraversion",
+      "model": "Dummy",
+      "n_test": 12,
+      "MAE": 0.16166666666666665,
+      "RMSE": 0.19179524672594644,
+      "R2": -0.00880329468898089,
+      "fit_seconds": 0.0002468752209097147,
+      "predict_seconds": 1.9249971956014633e-05,
+      "outside_0_1": 0,
+      "applied": true
+    }
+  ],
+  "smile_extraversion": {
+    "feature": "smile_ratio",
+    "target": "Extraversion",
+    "n": 38,
+    "pearson_r": 0.13393113946509466,
+    "pearson_p": 0.42275614989735877,
+    "spearman_rho": 0.35262099750774106,
+    "spearman_p_perm": 0.0324,
+    "spearman_q_BH": 0.8553599999999999,
+    "pearson_q_BH": 0.9516553997861507
+  },
+  "significant_full_BH": 0,
+  "bootstrap": [
+    {
+      "target": "Agreeableness",
+      "selected_model": "RandomForest",
+      "delta_MAE_vs_Dummy": -0.001799253090659314,
+      "CI95_low": -0.031196513189356855,
+      "CI95_high": 0.030697190867292484,
+      "bootstrap_repeats": 5000
+    },
+    {
+      "target": "Extraversion",
+      "selected_model": "Dummy",
+      "delta_MAE_vs_Dummy": 0.0,
+      "CI95_low": 0.0,
+      "CI95_high": 0.0,
+      "bootstrap_repeats": 5000
+    }
+  ],
+  "convergence_warnings": 0,
+  "pose_count_mismatch": 18
+}

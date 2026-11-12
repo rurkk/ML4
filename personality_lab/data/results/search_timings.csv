@@ -1,0 +1,9 @@
+target,model,search_and_refit_seconds
+Agreeableness,Dummy,0.007727666990831494
+Agreeableness,Ridge,0.36126487515866756
+Agreeableness,RandomForest,7.679980041924864
+Agreeableness,MLP,0.351628249976784
+Extraversion,Dummy,0.007158208871260285
+Extraversion,Ridge,0.35398079198785126
+Extraversion,RandomForest,7.739046833943576
+Extraversion,MLP,0.3613470841664821

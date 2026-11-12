@@ -1,0 +1,16 @@
+{
+  "folder_url": "https://drive.google.com/drive/folders/1Sb6kR2gn4_OuaPgpJIXl8keqYga2F3hD",
+  "retrieved_date": "2026-11-05",
+  "timezone": "Europe/Moscow",
+  "license": "No separate license statement supplied in the source folder",
+  "usage": "Local educational analysis requested by the user. No redistribution permission inferred.",
+  "files": {
+    "VPTD_Dataset.csv": "https://drive.google.com/file/d/18E5rwYGRegExA1GlODJOQp3Y_ej_ghup/view",
+    "smiles.csv": "https://drive.google.com/file/d/15l6SNq4PLC0YE52Rs5k0UIaYxyxomvph/view",
+    "head_movements.json": "https://drive.google.com/file/d/1EfrwrT1gS5EkZCDWKi9NB4cpKVj1XziI/view",
+    "Lecture_2026.pdf": "https://drive.google.com/file/d/1OVrynhxnBdZGOeabkayxni4Q7dPqZDML/view",
+    "Tasks.ipynb": "https://colab.research.google.com/drive/1lltwv94OuT1hjp54hraKuJq5V88uIM79"
+  },
+  "download": "Original stored files downloaded without format conversion",
+  "derived_data": "Per-participant nonverbal aggregates, no exclusion or subsampling"
+}

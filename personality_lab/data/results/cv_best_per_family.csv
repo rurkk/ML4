@@ -1,0 +1,9 @@
+target,model,CV_MAE,params,selected_features,applied
+Agreeableness,Dummy,0.13429047619047615,{},Нет,False
+Agreeableness,Ridge,0.12630214045938098,"{""model__alpha"": 100.0, ""select__k"": 6}","Pitch_std, Pitch_events_per_1000, Yaw_std, Yaw_min, Yaw_max, Yaw_events_per_1000",False
+Agreeableness,RandomForest,0.121362271186067,"{""model__max_depth"": null, ""model__min_samples_leaf"": 2, ""select__k"": 6}","Pitch_std, Pitch_events_per_1000, Yaw_std, Yaw_min, Yaw_max, Yaw_events_per_1000",True
+Agreeableness,MLP,0.1247959337338358,"{""model__alpha"": 1.0, ""select__k"": 6}","Pitch_std, Pitch_events_per_1000, Yaw_std, Yaw_min, Yaw_max, Yaw_events_per_1000",False
+Extraversion,Dummy,0.12469999999999996,{},Нет,True
+Extraversion,Ridge,0.1220480306425947,"{""model__alpha"": 100.0, ""select__k"": 3}","Roll_max, Pitch_std, Pitch_min",False
+Extraversion,RandomForest,0.14144047775943192,"{""model__max_depth"": 2, ""model__min_samples_leaf"": 2, ""select__k"": 3}","Roll_max, Pitch_std, Pitch_min",False
+Extraversion,MLP,0.12616902621876075,"{""model__alpha"": 1.0, ""select__k"": 3}","Roll_max, Pitch_std, Pitch_min",False

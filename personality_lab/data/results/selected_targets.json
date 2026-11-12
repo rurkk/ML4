@@ -1,0 +1,9 @@
+{
+  "rule": "top two max absolute train Spearman, ties by name",
+  "targets": [
+    "Agreeableness",
+    "Extraversion"
+  ],
+  "seed": 42,
+  "test_used": false
+}

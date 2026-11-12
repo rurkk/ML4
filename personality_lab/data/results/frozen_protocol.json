@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "train_ids": [
+    "MWSDdZj_QXu",
+    "byeCjvS_oUH",
+    "oNukcaJ_oiz",
+    "jsjWCIa_tli",
+    "EPhoawa_cLI",
+    "wzewmMk_Nzv",
+    "VzuYqSz_MHc",
+    "wpdCAFW_TiI",
+    "geJMdRS_bLD",
+    "MKdgEMd_con",
+    "QZqsLZn_yPM",
+    "zzXHxHz_WTr",
+    "pjlESEZ_rgA",
+    "RnWlbai_Gab",
+    "QYJOylc_eWg",
+    "HmakBQy_Zuo",
+    "gvjXeOW_XOE",
+    "kaDCEmY_jDi",
+    "exSnMmq_NJW",
+    "ELtDENo_vAU",
+    "bdVZIIm_EuX",
+    "MlmOdyM_vQZ",
+    "KiWvqaM_UZS",
+    "WfTccuO_NXE",
+    "CFWyWfu_SpR",
+    "gwdnjsF_tFL"
+  ],
+  "comparison_ids": [
+    "KTbiJPN_nFG",
+    "INHfwiw_yNA",
+    "PMoGeaZ_lek",
+    "CJySiDx_fZS",
+    "HaKCwkz_Krw",
+    "thLwHbd_SOt",
+    "krZcwjd_TUg",
+    "wDFVbbC_eNY",
+    "VVMgEJO_XFg",
+    "ybgBimL_qVE",
+    "dnPXJXQ_eFB",
+    "opJgPXE_gNj"
+  ],
+  "targets": [
+    "Agreeableness",
+    "Extraversion"
+  ],
+  "selected_models": {
+    "Agreeableness": "RandomForest",
+    "Extraversion": "Dummy"
+  },
+  "cv": {
+    "folds": 5,
+    "repeats": 3
+  },
+  "main_metric": "MAE",
+  "feature_count": 22,
+  "permutations": 4999,
+  "bootstrap_repeats": 5000,
+  "comparison_used_for_model_choice": true,
+  "independent_test_available": false,
+  "probe_seconds": 0.005167375085875392
+}

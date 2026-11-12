@@ -1,0 +1,22 @@
+{
+  "Lecture_2026.pdf": {
+    "bytes": 5011996,
+    "sha256": "4090851abe93d69979fbde0ef5f74355b8e05ff160fea53b11c26f8bcde4e924"
+  },
+  "Tasks.ipynb": {
+    "bytes": 3521,
+    "sha256": "da5e84158b019ecd0ad17e967be6a6dd9a09b96ceb3ec99e34007af245a9c0b3"
+  },
+  "VPTD_Dataset.csv": {
+    "bytes": 1599,
+    "sha256": "7f4bf023bfb4650483e7a149bf1e88c8240f3e34704e56ef96783eaaf18ea857"
+  },
+  "head_movements.json": {
+    "bytes": 2135771,
+    "sha256": "41013aaffded41505faf55f99bcf4cccd55acebab1057184864d790c2aaf373a"
+  },
+  "smiles.csv": {
+    "bytes": 932,
+    "sha256": "7479366a310fadf65a5f8e13b3739564c2f73999ede95f8a356c73e56ece0e9c"
+  }
+}

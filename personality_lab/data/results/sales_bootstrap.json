@@ -1,0 +1,8 @@
+{
+  "delta_MAE": -0.25,
+  "CI95_low": -0.6666666666666666,
+  "CI95_high": 0.16666666666666666,
+  "repeats": 5000,
+  "unit": "participant",
+  "comparison_used_for_selection": true
+}

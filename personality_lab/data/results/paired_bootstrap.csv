@@ -1,0 +1,3 @@
+target,selected_model,delta_MAE_vs_Dummy,CI95_low,CI95_high,bootstrap_repeats
+Agreeableness,RandomForest,-0.001799253090659314,-0.031196513189356855,0.030697190867292484,5000
+Extraversion,Dummy,0.0,0.0,0.0,5000

@@ -1,0 +1,7 @@
+target,model,group,n,model_MAE,Dummy_MAE
+Agreeableness,RandomForest,"[0, 1/3)",0,,
+Agreeableness,RandomForest,"[1/3, 2/3)",5,0.055486327380952626,0.0558846153846154
+Agreeableness,RandomForest,"[2/3, 1]",7,0.12574401360544205,0.12854395604395602
+Extraversion,Dummy,"[0, 1/3)",1,0.40250000000000014,0.40250000000000014
+Extraversion,Dummy,"[1/3, 2/3)",7,0.10678571428571437,0.10678571428571437
+Extraversion,Dummy,"[2/3, 1]",4,0.19749999999999984,0.19749999999999984

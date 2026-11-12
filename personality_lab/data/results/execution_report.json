@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "code_cells": 11,
+  "duration_seconds": 29.233152583939955,
+  "kernel": "python3",
+  "python": "/Users/raul/ItmoProjects/.venv/bin/python",
+  "working_directory": "/Users/raul/ItmoProjects/ML4/personality_lab",
+  "completed_at_utc": "2026-11-05T19:38:47.337893+00:00"
+}

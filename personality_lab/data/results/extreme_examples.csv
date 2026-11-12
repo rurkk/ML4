@@ -1,0 +1,5 @@
+target,case,Id_name,actual,prediction,absolute_error
+Agreeableness,Минимальная ошибка,wDFVbbC_eNY,0.625,0.6252138095238099,0.0002138095238098936
+Agreeableness,Максимальная ошибка,PMoGeaZ_lek,0.71,0.518408214285714,0.19159178571428592
+Extraversion,Минимальная ошибка,CJySiDx_fZS,0.52,0.5775000000000001,0.05750000000000011
+Extraversion,Максимальная ошибка,VVMgEJO_XFg,0.175,0.5775000000000001,0.40250000000000014
